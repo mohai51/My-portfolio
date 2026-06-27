@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohai | Tech Creator & Web Developer</title>
+  <meta name="description"
+    content="Mohaiminul Islam (Mohai) - Computer Science Student, UI/UX Designer, Tech Content Creator, and Digital Entrepreneur. Discover interactive web experiences and high-impact digital storytelling.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header id="header" class="premium-header">
+    <div class="nav-container">
+      <a href="#" class="logo-wrapper" id="nav-logo">
+        <div class="logo-glow-ring"></div>
+        <div class="logo-circle-container">
+          <img src="Logo.jpg" alt="MOHAI Logo" class="logo-circle-img">
+        </div>
+        <span class="logo-text">MOHAI<span class="logo-dot">.</span></span>
+      </a>
+
+      <nav class="nav-navigation" id="nav-navigation">
+        <ul class="nav-menu">
+          <li><a href="#" class="nav-link active" data-en="Home" data-bn="হোম">Home</a></li>
+          <li><a href="#about" class="nav-link" data-en="About" data-bn="পরিচিতি">About</a></li>
+          <li><a href="#expertise" class="nav-link" data-en="Expertise" data-bn="দক্ষতা">Expertise</a></li>
+          <li><a href="#projects" class="nav-link" data-en="Projects" data-bn="প্রজেক্টস">Projects</a></li>
+          <li><a href="#gallery" class="nav-link" data-en="Gallery" data-bn="গ্যালারি">Gallery</a></li>
+          <li><a href="#contact" class="nav-link" data-en="Contact" data-bn="যোগাযোগ">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions-group">
+        <div class="premium-lang-widget">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-indicator-dot"></span>
+          <button class="lang-btn" data-lang="bn">BN</button>
+        </div>
+
+        <button class="premium-theme-btn" id="theme-toggle" aria-label="Toggle Theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+
+        <button class="premium-hamburger" id="hamburger" aria-label="Menu">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="hero-tagline" data-en="DEVELOPER • CONTENT CREATOR • ENTREPRENEUR"
+            data-bn="ডেভেলপমেন্ট • কনটেন্ট ক্রিয়েশন • ডিজিটাল উদ্যোগ">DEVELOPER • CONTENT CREATOR • ENTREPRENEUR</span>
+          <h1 class="hero-title" data-en="Hi, I'm <span class='gradient-text'>Mohai</span>"
+            data-bn="হাই, আমি <span class='gradient-text'>মোহাইমিনুল</span>">Hi, I'm <span class="gradient-text">Mohaiminul</span>
+          </h1>
+          <h2 class="hero-subtitle" data-en="Tech Content Creator | Web Developer | Digital Entrepreneur"
+            data-bn="টেক কনটেন্ট ক্রিয়েটর | ওয়েব ডেভেলপার | ডিজিটাল উদ্যোক্তা">Tech Content Creator | Web Developer |
+            Digital Entrepreneur</h2>
+          <p class="hero-desc"
+            data-en="I bridge the gap between clean code and high-impact digital storytelling. Whether I'm building interactive web experiences or crafting high-energy tech content, I focus on delivering modern, premium results."
+            data-bn="আমি ক্লিন কোড এবং হাই-ইম্প্যাক্ট ডিজিটাল স্টোরিটেলিং এর সমন্বয় ঘটাই। ইন্টারেক্টিভ ওয়েব এক্সপেরিয়েন্স তৈরি বা এনার্জেটিক টেক কনটেন্ট স্ক্রিপ্টিং—সবখানেই প্রিমিয়াম কোয়ালিটি নিশ্চিত করাই আমার লক্ষ্য।">
+            I bridge the gap between clean code and high-impact digital storytelling. Whether I'm building interactive
+            web experiences or crafting high-energy tech content, I focus on delivering modern, premium results.
+          </p>
+          <div class="hero-ctas">
+            <a href="#expertise" class="btn btn-primary" data-en="View My Work" data-bn="আমার কাজ দেখুন">View My
+              Work</a>
+            <a href="#contact" class="btn btn-secondary" data-en="Let's Collaborate" data-bn="চলুন কাজ করি">Let's
+              Collaborate</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="slider-container">
+            <div class="slider-wrapper">
+              <div class="slide-card active" data-slide="1">
+                <div class="slide-card-inner">
+                  <div class="slide-card-front">
+                    <img src="IMG_0576.JPG" alt="Mohai Portrait 1" class="hero-avatar-img">
+                    <div class="slide-hover-hint"><span>Hover for Details</span></div>
+                  </div>
+                  <div class="slide-card-back">
+                    <div class="bio-details">
+                      <h4>Mohaiminul Islam</h4>
+                      <p class="bio-title">Tech Content Creator</p>
+                      <hr class="bio-divider">
+                      <p class="bio-text">Bridging clean modern engineering matrices and visual digital platforms
+                        architecture ecosystems flawlessly.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide-card" data-slide="2">
+                <div class="slide-card-inner">
+                  <div class="slide-card-front">
+                    <img src="IMG_0577.JPG" alt="Mohai Portrait 2" class="hero-avatar-img">
+                    <div class="slide-hover-hint"><span>Hover for Details</span></div>
+                  </div>
+                  <div class="slide-card-back">
+                    <div class="bio-details">
+                      <h4>Mohai The Picci Pola</h4>
+                      <p class="bio-title">Digital Entrepreneur</p>
+                      <hr class="bio-divider">
+                      <p class="bio-text">Scaling target systems, creating high energy immersive production contents,
+                        and delivering web development pipelines.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide-card" data-slide="3">
+                <div class="slide-card-inner">
+                  <div class="slide-card-front">
+                    <img src="IMG_0680.JPG" alt="Mohai Portrait 3" class="hero-avatar-img">
+                    <div class="slide-hover-hint"><span>Hover for Details</span></div>
+                  </div>
+                  <div class="slide-card-back">
+                    <div class="bio-details">
+                      <h4>Web Developer</h4>
+                      <p class="bio-title">UI/UX & Code Architect</p>
+                      <hr class="bio-divider">
+                      <p class="bio-text">Crafting robust production architecture infrastructures for maximum modern
+                        performance matrix optimization metrics.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="slider-arrow prev" aria-label="Previous slide">&#10094;</button>
+            <button class="slider-arrow next" aria-label="Next slide">&#10095;</button>
+            <div class="slider-dots">
+              <span class="slider-dot active" data-slide-target="1"></span>
+              <span class="slider-dot" data-slide-target="2"></span>
+              <span class="slider-dot" data-slide-target="3"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <span class="section-tag" data-en="01 // MY METRICS" data-bn="০১ // আমার পরিসংখ্যান">01 // MY METRICS</span>
+      <h2 class="section-title" data-en="Behind the Screen" data-bn="পর্দার আড়ালে">Behind the Screen</h2>
+
+      <div class="about-wrapper">
+        <div class="about-bio-panel">
+          <p class="about-bio-text"
+            data-en="I am Mohaiminul Islam, a final-year Computer Science student at United International University (UIU) maintaining a 3.00 CGPA, currently developing an impactful Final Year Design Project (FYDP) focused on accessibility for the colorblind. Professionally known as 'Mohai' and under the creator persona 'Mohai The Picci Pola', I combine technical engineering with high-impact digital storytelling."
+            data-bn="আমি মহাইমিনুল ইসলাম, ইউনাইটেড ইন্টারন্যাশনাল ইউনিভার্সিটির (UIU) কম্পিউটার সায়েন্স বিভাগের একজন ফাইনাল ইয়ারের শিক্ষার্থী (CGPA: 3.00)। বর্তমানে আমি কালারব্লাইন্ড বা বর্ণান্ধ ব্যক্তিদের জন্য এক্সেসিবিলিটি নিয়ে আমার ফাইনাল ইয়ার ডিজাইন প্রজেক্ট (FYDP) করছি। ডিজিটাল মাধ্যমে আমার ব্র্যান্ড আইডেন্টিটি 'Mohai' এবং 'Mohai The Picci Pola', যেখানে আমি প্রযুক্তির সাথে ক্রিয়েটিভ কনটেন্ট মেকিংয়ের সমন্বয় ঘটাই।">
+            I am Mohaiminul Islam, a final-year Computer Science student at United International University (UIU)
+            maintaining a 3.00 CGPA, currently developing an impactful Final Year Design Project (FYDP) focused on
+            accessibility for the colorblind. Professionally known as 'Mohai' and under the creator persona 'Mohai The
+            Picci Pola', I combine technical engineering with high-impact digital storytelling.
+          </p>
+
+          <p class="about-bio-text"
+            data-en="As a professional UI/UX designer with 10+ successfully prototyped Figma projects and a front-end developer skilled in HTML, CSS, and JavaScript, I bridge the gap between design and functionality. Beyond development, I am a prominent tech-challenge, education, and lifestyle content creator with over 87K+ followers on Facebook and 6K+ subscribers on YouTube."
+            data-bn="১০টিরও বেশি প্রজেক্টের এক্সপেরিয়েন্সসহ একজন প্রফেশনাল UI/UX ডিজাইনার এবং HTML, CSS ও JavaScript জানা একজন ফ্রন্ট-এন্ড ডেভেলপার হিসেবে আমি ডিজাইন ও ফাংশনালিটির চমৎকার ফিউশন তৈরি করি। ডেভলপমেন্টের পাশাপাশি, আমি ক্লিন টেক-চ্যালেঞ্জ, এডুকেশন ও পার্সোনাল গ্রোথ নিয়ে কনটেন্ট তৈরি করি, যেখানে ফেসবুকে আমার ৮৭K+ এবং ইউটিউবে ৬K+ সাবস্ক্রাইবার রয়েছে।">
+            As a professional UI/UX designer with 10+ successfully prototyped Figma projects and a front-end developer
+            skilled in HTML, CSS, and JavaScript, I bridge the gap between design and functionality. Beyond development,
+            I am a prominent tech-challenge, education, and lifestyle content creator with over 87K+ followers on
+            Facebook and 6K+ subscribers on YouTube.
+          </p>
+
+          <p class="about-bio-text"
+            data-en="Driven by the future of technology, I am actively expanding my horizon into Artificial Intelligence. My ultimate vision is to engineer next-generation AI systems while cementing my position as one of the most impactful and well-known tech content creators in Bangladesh."
+            data-bn="প্রযুক্তির ভবিষ্যৎ নিয়ে কাজ করতে আমি বর্তমানে সম্পূর্ণভাবে আর্টিফিশিয়াল ইন্টেলিজেন্স (AI) শেখার প্রস্তুতি নিচ্ছি। আমার মূল লক্ষ্য হলো একজন দক্ষ AI ইঞ্জিনিয়ার হওয়া এবং একই সাথে বাংলাদেশের একজন শীর্ষস্থানীয় ও সুপরিচিত টেক কনটেন্ট ক্রিয়েটর হিসেবে নিজেকে প্রতিষ্ঠিত করা।">
+            Driven by the future of technology, I am actively expanding my horizon into Artificial Intelligence. My
+            ultimate vision is to engineer next-generation AI systems while cementing my position as one of the most
+            impactful and well-known tech content creators in Bangladesh.
+          </p>
+        </div>
+
+        <div class="stats-interactive-card" id="stats-hover-zone" style="
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
+    padding: 30px; 
+    background: rgba(255, 255, 255, 0.05); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 16px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+" onmouseenter="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.2)';" onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+  
+  <div class="stat-box-item" style="text-align: center; padding: 15px;">
+    <div class="stat-icon-wrapper" style="font-size: 2.5rem; margin-bottom: 10px;">🚀</div>
+    <div class="stat-number-container" style="font-size: 2rem; font-weight: bold; font-family: monospace; color: #fff;">
+      <span class="custom-counter" data-target="10">0</span>
+      <span class="stat-suffix" style="color: #00ffcc;">+</span>
+    </div>
+    <p class="stat-label-text" data-en="UI/UX Projects" data-bn="ইউআই/ইউএক্স প্রজেক্টস" style="margin-top: 8px; font-size: 0.95rem; opacity: 0.8; color: #eee;">UI/UX Projects</p>
+  </div>
+
+  <div class="stat-box-item" style="text-align: center; padding: 15px;">
+    <div class="stat-icon-wrapper" style="font-size: 2.5rem; margin-bottom: 10px;">💻</div>
+    <div class="stat-number-container" style="font-size: 2rem; font-weight: bold; font-family: monospace; color: #fff;">
+      <span class="custom-counter" data-target="7">0</span>
+      <span class="stat-suffix" style="color: #00ffcc;">+</span>
+    </div>
+    <p class="stat-label-text" data-en="Web Dev Projects" data-bn="ওয়েব প্রজেক্টস" style="margin-top: 8px; font-size: 0.95rem; opacity: 0.8; color: #eee;">Web Projects</p>
+  </div>
+
+  <div class="stat-box-item" style="text-align: center; padding: 15px;">
+    <div class="stat-icon-wrapper" style="font-size: 2.5rem; margin-bottom: 10px;">🔥</div>
+    <div class="stat-number-container" style="font-size: 2rem; font-weight: bold; font-family: monospace; color: #fff;">
+      <span class="custom-counter" data-target="87">0</span>
+      <span class="stat-suffix" style="color: #00ffcc;">K+</span>
+    </div>
+    <p class="stat-label-text" data-en="Facebook Followers" data-bn="ফেসবুক ফলোয়ার্স" style="margin-top: 8px; font-size: 0.95rem; opacity: 0.8; color: #eee;">Facebook Followers</p>
+  </div>
+
+  <div class="stat-box-item" style="text-align: center; padding: 15px;">
+    <div class="stat-icon-wrapper" style="font-size: 2.5rem; margin-bottom: 10px;">🎬</div>
+    <div class="stat-number-container" style="font-size: 2rem; font-weight: bold; font-family: monospace; color: #fff;">
+      <span class="custom-counter" data-target="6">0</span>
+      <span class="stat-suffix" style="color: #00ffcc;">K+</span>
+    </div>
+    <p class="stat-label-text" data-en="YouTube Subs" data-bn="ইউটিউব সাবস্ক্রাইবার্স" style="margin-top: 8px; font-size: 0.95rem; opacity: 0.8; color: #eee;">YouTube Subs</p>
+  </div>
+</div>
+
+<script>
+  document.getElementById('stats-hover-zone').addEventListener('mouseenter', function() {
+   
+    if (this.dataset.hasAnimated === "true") return;
+    this.dataset.hasAnimated = "true"; 
+
+    const counters = this.querySelectorAll('.custom-counter');
+    const duration = 1000;
+
+    counters.forEach(counter => {
+      const target = parseInt(counter.getAttribute('data-target'), 10);
+      const startTime = performance.now();
+
+      function updateCounter(currentTime) {
+        const elapsedTime = currentTime - startTime;
+        const progress = Math.min(elapsedTime / duration, 1); 
+
+       
+        const easeOutQuad = progress * (2 - progress);
+        const currentValue = Math.floor(easeOutQuad * target);
+
+        counter.innerText = currentValue;
+
+        if (progress < 1) {
+          requestAnimationFrame(updateCounter);
+        } else {
+          counter.innerText = target; 
+        }
+      }
+
+      requestAnimationFrame(updateCounter);
+    });
+  });
+</script>
+  </section>
+
+  <!--Expertise-->
+  <section class="expertise" id="expertise">
+    <div class="container">
+      <span class="section-tag" data-en="02 // SPECIALIZATION" data-bn="০২ // বিশেষত্ব">02 // SPECIALIZATION</span>
+      <h2 class="section-title" data-en="My Expertise" data-bn="আমার দক্ষতা">My Expertise</h2>
+
+      <div class="expertise-perfect-grid">
+        <div class="glass-card expertise-item-card">
+          <div class="card-ui-accent"></div>
+          <h3 class="expertise-card-title">UI/UX Interface Design</h3>
+          <p class="expertise-card-desc">Crafting fully immersive premium design layouts, intuitive user wireframes,
+            functional workflows and prototypes built to engage and convert web platforms traffic efficiently.</p>
+          <div class="card-action-footer">
+            <a href="https://dribbble.com/mohaiminul-islam" class="explore-action-btn"><span>Explore Architecture</span>
+              &rarr;</a>
+          </div>
+        </div>
+
+        <div class="glass-card expertise-item-card">
+          <div class="card-ui-accent"></div>
+          <h3 class="expertise-card-title">Fullstack Web Development</h3>
+          <p class="expertise-card-desc">Engineered pixel perfect modern clean web systems modules powered by robust
+            Javascript interactivity mechanisms, scalable stylesheets execution, and modern deployment arrays.</p>
+          <div class="card-action-footer">
+            <a href="https://github.com/mohai51" class="explore-action-btn"><span>Explore Codebases</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="glass-card expertise-item-card">
+          <div class="card-ui-accent"></div>
+          <h3 class="expertise-card-title">Digital Entrepreneurship</h3>
+          <p class="expertise-card-desc">Launching custom tailored direct-to-consumer digital monetization mechanics,
+            scalable operational product design pipelines and targeted high capture conversions strategic plans.</p>
+          <div class="card-action-footer">
+            <a href="https://www.supportkori.com/mohai" class="explore-action-btn"><span>Explore Business</span>
+              &rarr;</a>
+          </div>
+        </div>
+
+        <!-- YouTube Project Card -->
+        <div class="glass-card expertise-item-card">
+          <div class="card-ui-accent"></div>
+          <h3 class="expertise-card-title">YouTube Content Strategy</h3>
+          <p class="expertise-card-desc">Producing engaging tech insight series, innovative challenge-based video concepts, and educational multi-part content engineered for maximum audience retention and digital reach.
+
+          </p>
+          <div class="card-action-footer">
+            <a href="https://www.youtube.com/@MohaiThePicciPola" class="explore-action-btn"><span>Watch Channel</span> &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Facebook Project Card -->
+        <div class="glass-card expertise-item-card">
+          <div class="card-ui-accent"></div>
+          <h3 class="expertise-card-title">Facebook Community & Engagement</h3>
+          <p class="expertise-card-desc">Connecting deeply with a vibrant audience and sharing diverse content, from personal tech insights to interactive updates, building an active community through high-engagement social strategies.
+
+          </p>
+          <div class="card-action-footer">
+            <a href="https://www.facebook.com/Mohai.xoxx" class="explore-action-btn"><span>Connect Page</span> &rarr;</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!--Expertise-->
+
+  <section class="minimal-skills-section" id="skills">
+    <div class="container">
+      <span class="section-tag" data-en="03 // CAPABILITIES" data-bn="০৩ // সামর্থ্য">03 // CAPABILITIES</span>
+      <h2 class="section-title" data-en="Core Toolkit & Skills" data-bn="মূল টুলকিট ও দক্ষতা">Core Toolkit & Skills</h2>
+
+      <div class="minimal-skills-grid">
+        <div class="minimal-skill-category-card">
+          <div class="category-header-wrap">
+            <div class="category-dot dev-dot"></div>
+            <h3>Development</h3>
+          </div>
+          <ul class="skill-tags-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+            <li>Responsive Design</li>
+            <li>Vercel</li>
+          </ul>
+        </div>
+
+        <div class="minimal-skill-category-card">
+          <div class="category-header-wrap">
+            <div class="category-dot content-dot"></div>
+            <h3>Content & Branding</h3>
+          </div>
+          <ul class="skill-tags-list">
+            <li>Video Production</li>
+            <li>Tech Scriptwriting</li>
+            <li>Thumbnail Design</li>
+            <li>Audience Engagement</li>
+            <li>Public Speaking</li>
+          </ul>
+        </div>
+
+        <div class="minimal-skill-category-card">
+          <div class="category-header-wrap">
+            <div class="category-dot biz-dot"></div>
+            <h3>Entrepreneurship</h3>
+          </div>
+          <ul class="skill-tags-list">
+            <li>Digital Product Design</li>
+            <li>Launch Strategy</li>
+            <li>Direct to Consumer Sales</li>
+            <li>Market Analysis</li>
+            <li>Marketing Operation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <span class="section-tag" data-en="04 // MY CREATIONS" data-bn="০৪ // আমার প্রজেক্টস">04 // MY CREATIONS</span>
+      <h2 class="section-title" data-en="Selected Projects" data-bn="নির্বাচিত কাজসমূহ">Selected Projects</h2>
+
+      <div class="project-filter-shifter">
+        <button class="filter-btn active" data-filter="all" data-en="All Cards" data-bn="সব প্রজেক্ট">All Cards</button>
+        <button class="filter-btn" data-filter="dev" data-en="Web & Dev" data-bn="ওয়েব ও কোডিং">Web & Dev</button>
+        <button class="filter-btn" data-filter="ui" data-en="UI/UX Design" data-bn="ইউআই/ইউএক্স">Web & Dev</button>
+        <button class="filter-btn" data-filter="creator" data-en="Digital & Media" data-bn="মিডিয়া ও ক্রিয়েশন">Digital
+          & Media</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+
+        <!-- web and dev projects -->
+
+        <div class="project-card glass-card" data-category="dev">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">HTML / JS / CSS</div>
+            <img src="ec.png" alt="Locked Surprise Link" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="Qurbani Surprise Link Card" data-bn="কোরবানি সারপ্রাইজ লিঙ্ক কার্ড">
+              Qurbani Surprise Link Card</h3>
+            <p class="project-desc"
+              data-en="A unique digital wishing card experience that brings loved ones closer this Eid. Successfully generated 300+ BDT in revenue!"
+              data-bn="প্রিয়জনকে সম্পূর্ণ ভিন্নধর্মী উপায়ে ঈদের শুভেচ্ছা জানানোর ডিজিটাল মাধ্যম। ইতিমধ্যে ৩০০+ টাকার সেলস সম্পন্ন হয়েছে!">
+              A unique digital wishing card experience that brings loved ones closer this Eid. Successfully generated
+              300+ BDT in revenue!
+            </p>
+            <a href="https://my-eid-card.vercel.app/" class="project-link-anchor"><span data-en="Explore"
+                data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+
+        <div class="project-card glass-card" data-category="dev">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">HTML / JS / CSS</div>
+            <img src="pb.png" alt="Locked Surprise Link" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="Boishakhi Surprise Card" data-bn="বৈশাখী সারপ্রাইজ লিঙ্ক কার্ড">
+              Boishakhi Surprise Card</h3>
+            <p class="project-desc"
+              data-en="Celebrate Noboborsho with customized digital surprise cards. A massive hit with 600+ BDT in total sales!"
+              data-bn="পহেলা বৈশাখের আমেজকে ডিজিটাল কার্ডের মাধ্যমে প্রিয়জনের কাছে পৌঁছে দেওয়ার দারুণ সুযোগ। যা ইতিমধ্যেই ৬০০+ টাকার সেলস ছাড়িয়েছে!">
+              Celebrate Noboborsho with customized digital surprise cards. A massive hit with 600+ BDT in total sales!
+            </p>
+            <a href="https://my-boisakh.netlify.app/" class="project-link-anchor"><span data-en="Explore"
+                data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="dev">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">HTML / JS / CSS</div>
+            <img src="fifa.png" alt="Locked Surprise Link" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="FIFA World Cup (Transfer Agreement)"
+              data-bn="ফুটবল দলবদল চুক্তিপত্র">FIFA World Cup (Transfer Agreement)</h3>
+            <p class="project-desc"
+              data-en="Want to switch your favorite football club or team? Create your official mock transfer agreement right now and prank your friends with this ultimate fun football contract generator!"
+              data-bn="প্রিয় দল বা বন্ধু মহলে ক্লাব চেঞ্জ করতে চান? মজার এই ফান প্রজেক্টের মাধ্যমে ঝটপট বানিয়ে নিন নিজের অফিশিয়াল দলবদল চুক্তিপত্র আর বন্ধুদের সাথে মজা করুন একদম নতুন উপায়ে!">
+              Want to switch your favorite football club or team? Create your official mock transfer agreement right now
+              and prank your friends with this ultimate fun football contract generator!
+            </p>
+            <a href="https://mohai51.github.io/FIFA-World-Cup---2026/" class="project-link-anchor"><span
+                data-en="Explore" data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="dev">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">HTML / JS / CSS</div>
+            <img src="farmiq.png" alt="Locked Surprise Link" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="FarmIQ – Smart IoT Dashboard for Automated Agriculture"
+              data-bn="FarmIQ – আপনার কৃষির স্মার্ট আইওটি ড্যাশবোর্ড">FarmIQ – Smart IoT Dashboard for Automated
+              Agriculture</h3>
+            <p class="project-desc"
+              data-en="Take control of your farm remotely. Monitor soil moisture, automate plant watering, and control fans with ease."
+              data-bn="দূর থেকেই নিয়ন্ত্রণ করুন আপনার খামার। মাটিতে অটো পানি দেওয়া, ফ্যান অন-অফ এবং তাপমাত্রা মনিটর করার কমপ্লিট সলিউশন।">
+              Take control of your farm remotely. Monitor soil moisture, automate plant watering, and control fans with
+              ease.
+            </p>
+            <a href=" https://mohai51.github.io/FarmiQ-IoT/" class="project-link-anchor"><span data-en="Explore"
+                data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="dev">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">HTML / JS / CSS</div>
+            <img src="pc.png" alt="Locked Surprise Link" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="PasswordLock – Test Your Password Security instantly"
+              data-bn="পাসওয়ার্ড লক – আপনার পাসওয়ার্ড কি আসলেই নিরাপদ?">PasswordLock – Test Your Password Security
+              instantly</h3>
+            <p class="project-desc"
+              data-en="Is your password truly safe? Check your security strength in just 1 second and protect your digital identity."
+              data-bn="মাত্র ১ সেকেন্ডে চেক করে নিন আপনার পাসওয়ার্ড কতটা শক্তিশালী এবং আপনার ডিজিটাল অ্যাকাউন্টগুলোকে রাখুন সম্পূর্ণ সুরক্ষিত।">
+              Is your password truly safe? Check your security strength in just 1 second and protect your digital
+              identity.
+            </p>
+            <a href=" https://mohai51.github.io/Password-Checker/" class="project-link-anchor"><span data-en="Explore"
+                data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="dev">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">HTML / JS / CSS</div>
+            <img src="technova.png" alt="Locked Surprise Link" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="TechNova – A New Era of Cutting-Edge Gadgets"
+              data-bn="(TechNova) – আধুনিক প্রযুক্তির নতুন দিগন্ত">TechNova – A New Era of Cutting-Edge Gadgets</h3>
+            <p class="project-desc"
+              data-en="Your ultimate destination for the latest premium smartwatches, laptops, drones, and tech accessories with fast delivery."
+              data-bn="লেটেস্ট গ্যাজেট, স্মার্টওয়াচ, ল্যাপটপ এবং ট্রেন্ডি টেক এক্সেসরিজের সেরা কালেকশন নিয়ে আপনার বিশ্বস্ত অনলাইন শপ।">
+              Your ultimate destination for the latest premium smartwatches, laptops, drones, and tech accessories with
+              fast delivery.
+            </p>
+            <a href="https://mohai51.github.io/Technova/" class="project-link-anchor"><span data-en="Explore"
+                data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="dev">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">HTML / JS / CSS</div>
+            <img src="uiu360.png" alt="Locked Surprise Link" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="UIU Installment Calculator" data-bn="UIU Installment Calculator">UIU
+              Installment Calculator</h3>
+            <p class="project-desc"
+              data-en="A dedicated, hassle-free tool for UIU students to instantly calculate semester tuition fees and manage breakdown installments."
+              data-bn="UIU শিক্ষার্থীদের জন্য নিজের সেমিস্টার অনুযায়ী টিউশন ফি এবং কিস্তির নিখুঁত হিসাব বের করার একদম ফ্রি ও সহজ মাধ্যম.">
+              A dedicated, hassle-free tool for UIU students to instantly calculate semester tuition fees and manage
+              breakdown installments.
+            </p>
+            <a href="https://mohai51.github.io/UIU_INSTALMENT_CALCULATOR/" class="project-link-anchor"><span
+                data-en="Explore" data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="dev">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">HTML / JS / CSS</div>
+            <img src="chatbot.png" alt="Locked Surprise Link" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="Construction Site Assistant with Gemini API"
+              data-bn="কনস্ট্রাকশনের জন্য স্মার্ট এআই চ্যাটবট">Construction Site Assistant with Gemini API</h3>
+            <p class="project-desc"
+              data-en="Smart AI-powered chatbot designed to streamline site updates, safety compliance, and resource management effortlessly."
+              data-bn="Gemini API চালিত একটি আধুনিক চ্যাটবট, যা কনস্ট্রাকশন সাইটের ডেইলি আপডেট, সেফটি কমপ্লায়েন্স এবং রিসোর্স ম্যানেজমেন্ট করবে আরও সহজ।">
+              Smart AI-powered chatbot designed to streamline site updates, safety compliance, and resource management
+              effortlessly.
+            </p>
+            <a href="https://mohai51.github.io/Nirman_Test_ChatBot/" class="project-link-anchor"><span data-en="Explore"
+                data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+        <!-- web and dev projects -->
+
+        <!-- UIUX projects -->
+
+        <div class="project-card glass-card" data-category="ui">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">Figma / Canva / Notion</div>
+            <img src="wcc.png" alt="Comic Story Generator" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="We Can Change – UI/UX & Research"
+              data-bn="We Can Change –ইউআই/ইউএক্স ও রিসার্চ">We Can Change – UI/UX & Research</h3>
+            <p class="project-desc"
+              data-en="A user-centric web platform built on deep UX research to drive community engagement and smooth volunteer recruitment."
+              data-bn="সোশ্যাল অর্গানাইজেশনের জন্য রিসার্চ-ভিত্তিক ওয়েব ডিজাইন, যা সহজে ভলান্টিয়ার রিক্রুটমেন্ট ও ডোনেশন জার্নি নিশ্চিত করে।">
+              A user-centric web platform built on deep UX research to drive community engagement and smooth volunteer
+              recruitment.
+            </p>
+            <a href="https://dribbble.com/shots/27148565-WCC-Non-Profitable-Social-Organization-Landing-Page-Case-Study"
+              class="project-link-anchor"><span data-en="Explore" data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="ui">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">Figma / Canva / Notion</div>
+            <img src="fiq.png" alt="Comic Story Generator" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="FarmIQ – IoT Farming Dashboard"
+              data-bn="FarmIQ –আইওটি ফার্মিং ড্যাশবোর্ড">FarmIQ – IoT Farming Dashboard</h3>
+            <p class="project-desc"
+              data-en="A clean, data-driven web dashboard to remotely monitor soil data and control automated watering and fans."
+              data-bn="সোশ্যাল অর্গানাইজেশনের জন্য রিসার্চ-ভিত্তিক ওয়েব ডিজাইন, যা সহজে ভলান্টিয়ার রিক্রুটমেন্ট ও ডোনেশন জার্নি নিশ্চিত করে।">
+              A clean, data-driven web dashboard to remotely monitor soil data and control automated watering and fans.
+            </p>
+            <a href="https://dribbble.com/shots/26660639-FarmiQ-Smart-Greenhouse-IoT-System"
+              class="project-link-anchor"><span data-en="Explore" data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="ui">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">Figma / Canva / Notion</div>
+            <img src="x.png" alt="Comic Story Generator" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="Celestial Guidance – Astrology UI" data-bn="অস্ট্রোলজি ইউআই">
+              Celestial Guidance – Astrology UI</h3>
+            <p class="project-desc"
+              data-en="A clean and soothing homepage design focused on clear navigation for horoscopes and cosmic tools."
+              data-bn="রাশিফল ও কসমিক টুলস সহজে এক্সপ্লোর করার জন্য একটি দৃষ্টিনন্দন ও ট্রাস্টেড হোমপেজ ডিজাইন।">
+              A clean and soothing homepage design focused on clear navigation for horoscopes and cosmic tools.
+            </p>
+            <a href="https://dribbble.com/shots/26227077-Mobile-App-UI-Astrology-Consultancy"
+              class="project-link-anchor"><span data-en="Explore" data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="ui">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">Figma / Canva / Notion</div>
+            <img src="m.png" alt="Comic Story Generator" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="Mobile Authentication" data-bn="মোবাইল অথেনটিকেশন">Mobile
+              Authenticationr</h3>
+            <p class="project-desc"
+              data-en="A 4-5 page mobile UI focusing on a seamless, low-friction login and secure verification user journey."
+              data-bn="৪-৫ পেজের একটি মোবাইল ইউআই ডিজাইন, যা লগইন ও ভেরিফিকেশন প্রসেসকে করে একদম সহজ ও নিরাপদ।">
+              A 4-5 page mobile UI focusing on a seamless, low-friction login and secure verification user journey.
+            </p>
+            <a href="https://dribbble.com/shots/26660632-Modern-Login-Signup-UI-Clean-Minimal-Design-Figma"
+              class="project-link-anchor"><span data-en="Explore" data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="ui">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">Figma / Canva / Notion</div>
+            <img src="gym.png" alt="Comic Story Generator" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="Gym Experience UI" data-bn="জিম এক্সপেরিয়েন্স ইউআই">Gym Experience
+              UI</h3>
+            <p class="project-desc"
+              data-en="A bold 3-4 page interface designed to simplify gym membership sign-ups and class bookings."
+              data-bn="মেম্বারশিপ সাইন-আপ ও ক্লাস বুকিং সহজ করতে ৩-৪ পেজের একটি বোল্ড এবং মোটিভেটিং জিম অ্যাপ ইন্টারফেস।">
+              A bold 3-4 page interface designed to simplify gym membership sign-ups and class bookings.
+            </p>
+            <a href="https://dribbble.com/shots/26209123-FITMEAL-Personalized-Healthy-Food-Suggestion-App"
+              class="project-link-anchor"><span data-en="Explore" data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="ui">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">Figma / Canva / Notion</div>
+            <img src="regnons.png" alt="Comic Story Generator" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="Regnons – E-commerce Landing Page"
+              data-bn="Regnons –ই-কমার্স ল্যান্ডিং পেজ">Regnons – E-commerce Landing Page</h3>
+            <p class="project-desc"
+              data-en="A modern, high-conversion landing page crafted for a clothing brand to showcase premium apparel."
+              data-bn="ক্লোথিং ব্র্যান্ডের প্রোডাক্ট শোকেসিং এবং সেলস বাড়ানোর জন্য একটি স্টাইলিশ ও কনভার্সন-ফোকাসড ল্যান্ডিং পেজ।">
+              A modern, high-conversion landing page crafted for a clothing brand to showcase premium apparel.
+            </p>
+            <a href="https://dribbble.com/shots/26660651-Webpage-for-Regions" class="project-link-anchor"><span
+                data-en="Explore" data-bn="লাইভ দেখুন">Explore</span> &rarr;</a>
+          </div>
+        </div>
+
+        <!-- UIUX projects -->
+
+        <!--creator projects-->
+
+        <div class="project-card glass-card" data-category="creator">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">Youtube / Facebook</div>
+            <img src="c1.jpeg" alt="Sociology Video Project" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title"
+              data-en="Microkernel vs Microservices: Which Architecture Wins? Software Architecture Question Review.">
+            </h3>
+
+            <a href="https://youtu.be/l0l0JHokG-U" class="project-link-anchor"><span data-en="Watch Video"
+                data-bn="ভিডিওটি দেখুন">Watch Video</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="creator">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">Youtube / Facebook</div>
+            <img src="c9.jpg" alt="Sociology Video Project" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="UIU তে পহেলা বৈশাখ! কী কী উৎযাপন হলো?"></h3>
+
+            <a href="https://youtu.be/EfKZId1sfTw" class="project-link-anchor"><span data-en="Watch Video"
+                data-bn="ভিডিওটি দেখুন">Watch Video</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="creator">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">Youtube / Facebook</div>
+            <img src="a.jpg" alt="Sociology Video Project" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title"
+              data-en="UIU Students Went CRAZY! | Play Football &  win 10 LAKH TAKA | AMA Coffee Campus Futsal Bangladesh">
+            </h3>
+
+            <a href="https://youtu.be/QRZ2olJjNA0" class="project-link-anchor"><span data-en="Watch Video"
+                data-bn="ভিডিওটি দেখুন">Watch Video</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="creator">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">Youtube / Facebook</div>
+            <img src="c2.png" alt="Sociology Video Project" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title" data-en="কোডারদের চাকরি সত্যিই শেষ, নাকি নতুন যুগ শুরু? Antigravity 2.0!">
+            </h3>
+
+            <a href="https://youtu.be/xEKYk5A_Ndc" class="project-link-anchor"><span data-en="Watch Video"
+                data-bn="ভিডিওটি দেখুন">Watch Video</span> &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-category="creator">
+          <div class="project-img-wrapper">
+            <div class="project-tech-badge">Youtube / Facebook</div>
+            <img src="c4.png" alt="Sociology Video Project" class="project-img">
+          </div>
+          <div class="project-info">
+            <h3 class="project-item-title"
+              data-en="কেক বিক্রি করে দুই সপ্তাহে  আয় ৭,০০০ টাকা | Passion to Profession | The Untold Story of "
+              Sanzulogy""></h3>
+
+            <a href="https://youtu.be/Hs0DsMPdUkY" class="project-link-anchor"><span data-en="Watch Video"
+                data-bn="ভিডিওটি দেখুন">Watch Video</span> &rarr;</a>
+          </div>
+        </div>
+
+
+
+
+        <!--creator projects-->
+
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <span class="section-tag" data-en="05 // VISUAL VIBES" data-bn="০৫ // ভিজুয়াল গ্যালারি">05 // VISUAL VIBES</span>
+      <h2 class="section-title" data-en="Media Gallery" data-bn="মিডিয়া গ্যালারি">Media Gallery</h2>
+
+      <div class="gallery-tech-grid">
+        <div class="gallery-item-wrapper glass-card">
+          <img src="_JAG0725.JPG" alt="Mohaiminul Premium Tech Portrait" class="gallery-fluid-img">
+          <div class="gallery-overlay-meta"><span class="gallery-category-pill">Creator Portrait</span></div>
+        </div>
+        <div class="gallery-item-wrapper glass-card">
+          <img src="IMG_0680.JPG" alt="Mohai Production Setup" class="gallery-fluid-img">
+          <div class="gallery-overlay-meta"><span class="gallery-category-pill">Tech Studio Vlog</span></div>
+        </div>
+        <div class="gallery-item-wrapper glass-card">
+          <img src="IMG_0577.JPG" alt="UIU Speaker Showcase" class="gallery-fluid-img">
+          <div class="gallery-overlay-meta"><span class="gallery-category-pill">UIU Speaking Session</span></div>
+        </div>
+        <div class="gallery-item-wrapper glass-card">
+          <img src="IMG_0576.JPG" alt="WCC Event Stage" class="gallery-fluid-img">
+          <div class="gallery-overlay-meta"><span class="gallery-category-pill">Community Event (WCC)</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-lightbox" id="gallery-lightbox" aria-hidden="true">
+      <button class="lightbox-close-trigger" id="lightbox-close">&times;</button>
+      <img src="" alt="Enlarged view" class="lightbox-hero-image" id="lightbox-hero-img">
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <span class="section-tag" data-en="06 // SECURE CONNECT" data-bn="০৬ // নিরাপদ যোগাযোগ">06 // SECURE
+        CONNECT</span>
+      <h2 class="section-title" data-en="Get In Touch" data-bn="যোগাযোগ করুন">Get In Touch</h2>
+
+      <div class="glass-card contact-form-wrapper">
+        <form id="portfolio-secure-form" action="#" method="POST">
+          <div class="form-group-row">
+            <div class="form-control-field no-margin">
+              <label class="form-label" data-en="YOUR NAME" data-bn="আপনার নাম">YOUR NAME</label>
+              <input type="text" name="name" class="form-input" required placeholder="John Doe">
+            </div>
+            <div class="form-control-field no-margin">
+              <label class="form-label" data-en="PHONE NUMBER" data-bn="ফোন নম্বর">PHONE NUMBER</label>
+              <input type="tel" name="phone" class="form-input" required placeholder="+880 1XXX XXXXXX">
+            </div>
+          </div>
+          <div class="form-control-field">
+            <label class="form-label" data-en="EMAIL ADDRESS" data-bn="ইমেইল এড্রেস">EMAIL ADDRESS</label>
+            <input type="email" name="email" class="form-input" required placeholder="example@domain.com">
+          </div>
+          <div class="form-control-field">
+            <label class="form-label" data-en="PROJECT DETAILS" data-bn="বার্তা বা প্রজেক্ট বিবরণ">PROJECT
+              DETAILS</label>
+            <textarea name="message" class="form-input" required
+              placeholder="Let's build something premium together..."></textarea>
+          </div>
+          <div class="form-submit-container">
+            <button type="submit" class="btn btn-primary" data-en="Send Message" data-bn="বার্তা পাঠান">Send
+              Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-logo">MOHAI</div>
+      <p>&copy; 2026 Mohaiminul Islam. Crafted with passion & visual precision.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
